@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist/",
+        "target": "es6",
+        "lib": [
+            "es5",
+            "es6",
+            "dom"
+        ],
+        "types": [
+            "node",
+            "jest"
+        ],
+        "moduleResolution": "node",
+        "noImplicitAny": true,
+        "allowJs": true,
+        "esModuleInterop": false,
+        "experimentalDecorators": true
+    },
+    "exclude": [
+        "node_modules",
+        "build",
+        "scripts"
+    ]
+}
